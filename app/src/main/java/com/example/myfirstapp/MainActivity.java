@@ -12,8 +12,7 @@ public class MainActivity extends AppCompatActivity {
     TextView onResumeText;
     TextView onStartText;
     TextView onCreateText;
-    TextView onStopText;
-    TextView onDestroyText;
+
 
     @Override
     protected void onStart() {

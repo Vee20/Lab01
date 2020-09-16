@@ -13,14 +13,14 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:textSize="18sp"
-        android:text="Main_activity" />
+        android:text="@string/main_activity" />
 
     <TextView
         android:id="@+id/onCreateText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="18sp"
-        android:text="On create Execute"
+        android:text="@string/on_create_execute"
         android:visibility="gone"/>
 
     <TextView
@@ -28,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="18sp"
-        android:text="On start Execute"
+        android:text="@string/on_start_execute"
         android:visibility="gone"/>
 
     <TextView
@@ -36,7 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="18sp"
-        android:text="On resume Execute"
+        android:text="@string/on_resume_execute"
         android:visibility="gone"/>
 
 </LinearLayout>

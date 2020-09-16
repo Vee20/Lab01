@@ -23,7 +23,7 @@ ListView LV;
 
 SearchView SV;
 ArrayAdapter<String> Adapter;
-String[] activityNames = {"AIActivity", "VRActivity"};
+String[] activityNames = {getString(R.string.AIActivity), getString(R.string.VRActivity)};
 
     public FragmentList() {
         // Required empty public constructor
@@ -31,7 +31,7 @@ String[] activityNames = {"AIActivity", "VRActivity"};
 
     @Override
     public void onStart() {
-        Toast.makeText(getContext(),"List View Fragment OnStart", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getContext(), R.string.LVOnStart, Toast.LENGTH_SHORT).show();
         super.onStart();
     }
 
@@ -39,7 +39,7 @@ String[] activityNames = {"AIActivity", "VRActivity"};
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        Toast.makeText(getContext(), "List View Fragment OnCreateView", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getContext(), R.string.LVOnCreate, Toast.LENGTH_SHORT).show();
         View view = inflater.inflate(R.layout.fragment_list, container);
         LV = (ListView) view.findViewById(R.id.listView);
         Adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, activityNames);

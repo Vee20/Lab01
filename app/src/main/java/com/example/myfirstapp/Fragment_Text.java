@@ -21,7 +21,7 @@ public class Fragment_Text extends Fragment {
 
     @Override
     public void onStart() {
-        Toast.makeText(getContext(),"Text Fragment OnStart", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getContext(), R.string.TextOnStart, Toast.LENGTH_SHORT).show();
         super.onStart();
     }
 
@@ -29,7 +29,7 @@ public class Fragment_Text extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        Toast.makeText(getContext(),"Text Fragment OnCreateView", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getContext(), R.string.TextOnCreate, Toast.LENGTH_SHORT).show();
         return inflater.inflate(R.layout.fragment__text, container, false);
     }
 }
