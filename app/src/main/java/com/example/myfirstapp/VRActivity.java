@@ -8,7 +8,6 @@ import android.widget.TextView;
 
 public class VRActivity extends AppCompatActivity {
 
-    TextView onResumeText;
     TextView onStartText;
     TextView onCreateText;
     TextView onStopText;
