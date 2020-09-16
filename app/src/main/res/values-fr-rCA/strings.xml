@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string name="TextOnStart">Fragment de texte OnStart</string>
+    <string name="on_start_execute">Au démarrage Exécuter</string>
+    <string name="on_resume_execute">Lors de la reprise Exécuter</string>
+    <string name="on_create_execute">Lors de la création, exécuter</string>
+    <string name="LVOnStart">Fragment de vue en liste OnStart</string>
+    <string name="LVOnCreate">Fragment de vue de liste OnCreateView</string>
+    <string name="hello_blank_fragment">Bonjour fragment vierge</string>
+    <string name="TextOnCreate">Fragment de texte OnCreateView</string>
+    <string name="AIActivity">AIActivité</string>
+    <string name="VRActivity">VRAactivité</string>
+    <string name="vractivity">VRAactivité</string>
+    <string name="main_activity">Activité principale</string>
+</resources>

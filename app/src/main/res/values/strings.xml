@@ -7,14 +7,15 @@
     <string name="TextOnStart">Text Fragment OnStart</string>
     <string name="TextOnCreate">Text Fragment OnCreateView</string>
     <string name="AIActivity">AIActivity</string>
-    <string name="VRActivity">VRActivity</string>
-    <string name="oncreate">onCreate</string>
-    <string name="onstart">onStart</string>
-    <string name="onstop">onStop</string>
-    <string name="ondestroy">onDestroy</string>
+    <string name="oncreate" translatable="false">onCreate</string>
+    <string name="onstart" translatable="false">onStart</string>
+    <string name="onstop" translatable="false">onStop</string>
+    <string name="ondestroy" translatable="false">onDestroy</string>
     <string name="vractivity">VRActivity</string>
     <string name="on_start_execute">On start Execute</string>
     <string name="on_resume_execute">On resume Execute</string>
     <string name="on_create_execute">On create Execute</string>
     <string name="main_activity">Main_activity</string>
+    <string name="VRActivity">VRActivity</string>
+    <string name="veera_gudla_lab_01" translatable="false">Veera Gudla Lab 01</string>
 </resources>
