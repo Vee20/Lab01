@@ -30,6 +30,12 @@ String[] activityNames = {"AIActivity", "VRActivity"};
     }
 
     @Override
+    public void onStart() {
+        Toast.makeText(getContext(),"List View Fragment OnStart", Toast.LENGTH_SHORT).show();
+        super.onStart();
+    }
+
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
