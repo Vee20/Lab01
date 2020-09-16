@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onStart() {
-        onStartText = findViewById(R.id.onStart);
+        onStartText = findViewById(R.id.onStartText);
         onStartText.setVisibility(View.VISIBLE);
         super.onStart();
     }
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        onCreateText = findViewById(R.id.onCreate);
+        onCreateText = findViewById(R.id.onCreateText);
         onCreateText.setVisibility(View.VISIBLE);
     }
 

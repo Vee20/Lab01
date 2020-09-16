@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/onCreate"
+        android:id="@+id/onCreate11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="176dp"
@@ -35,7 +35,7 @@
         android:visibility="gone"/>
 
     <TextView
-        android:id="@+id/onStart"
+        android:id="@+id/onStart22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="184dp"
@@ -50,7 +50,7 @@
         android:visibility="gone"/>
 
     <TextView
-        android:id="@+id/onStop"
+        android:id="@+id/onStop33"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="189dp"
@@ -65,7 +65,7 @@
         android:visibility="gone"/>
 
     <TextView
-        android:id="@+id/onDestroy"
+        android:id="@+id/onDestroy44"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="194dp"

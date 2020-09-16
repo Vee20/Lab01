@@ -16,7 +16,7 @@ public class AIActivity extends AppCompatActivity {
 
     @Override
     protected void onStart() {
-        onStartText = findViewById(R.id.onStart);
+        onStartText = findViewById(R.id.onStart22);
         onStartText.setVisibility(View.VISIBLE);
         super.onStart();
     }
@@ -26,20 +26,20 @@ public class AIActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_a_i);
 
-        onCreateText = findViewById(R.id.onCreate);
+        onCreateText = findViewById(R.id.onCreate11);
         onCreateText.setVisibility(View.VISIBLE);
     }
 
     @Override
     protected void onStop(){
-        onStopText = findViewById(R.id.onStop);
+        onStopText = findViewById(R.id.onStop33);
         onStopText.setVisibility(View.VISIBLE);
         super.onStop();
     }
 
     @Override
     protected void onDestroy(){
-        onDestroyText = findViewById(R.id.onDestroy);
+        onDestroyText = findViewById(R.id.onDestroy44);
         onDestroyText.setVisibility(View.VISIBLE);
         super.onDestroy();
     }
