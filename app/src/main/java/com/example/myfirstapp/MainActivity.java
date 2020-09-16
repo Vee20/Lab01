@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
     TextView onResumeText;
     TextView onStartText;
     TextView onCreateText;
+    TextView onStopText;
+    TextView onDestroyText;
 
     @Override
     protected void onStart() {
@@ -36,4 +38,17 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
     }
 
+    @Override
+    protected void onStop(){
+        onStopText = findViewById(R.id.onStop);
+        onStopText.setVisibility(View.VISIBLE);
+        super.onStop();
+    }
+
+    @Override
+    protected void onDestroy(){
+        onDestroyText = findViewById(R.id.onDestroy);
+        onDestroyText.setVisibility(View.VISIBLE);
+        super.onDestroy();
+    }
 }
