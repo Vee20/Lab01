@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onStart() {
-        onStartText = findViewById(R.id.onStartText);
+        onStartText = findViewById(R.id.onStart);
         onStartText.setVisibility(View.VISIBLE);
         super.onStart();
     }
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        onCreateText = findViewById(R.id.onCreateText);
+        onCreateText = findViewById(R.id.onCreate);
         onCreateText.setVisibility(View.VISIBLE);
     }
 
@@ -37,18 +37,7 @@ public class MainActivity extends AppCompatActivity {
         onResumeText.setVisibility(View.VISIBLE);
         super.onResume();
     }
-
-    @Override
-    protected void onStop(){
-        onStopText = findViewById(R.id.onStop);
-        onStopText.setVisibility(View.VISIBLE);
-        super.onStop();
-    }
-
-    @Override
-    protected void onDestroy(){
-        onDestroyText = findViewById(R.id.onDestroy);
-        onDestroyText.setVisibility(View.VISIBLE);
-        super.onDestroy();
-    }
 }
+
+
+

@@ -16,7 +16,7 @@ public class VRActivity extends AppCompatActivity {
 
     @Override
     protected void onStart() {
-        onStartText = findViewById(R.id.onStartText);
+        onStartText = findViewById(R.id.onStart);
         onStartText.setVisibility(View.VISIBLE);
         super.onStart();
     }
@@ -26,15 +26,8 @@ public class VRActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_v_r);
 
-        onCreateText = findViewById(R.id.onCreateText);
+        onCreateText = findViewById(R.id.onCreate);
         onCreateText.setVisibility(View.VISIBLE);
-    }
-
-    @Override
-    protected void onResume() {
-        onResumeText = findViewById(R.id.onResumeText);
-        onResumeText.setVisibility(View.VISIBLE);
-        super.onResume();
     }
 
     @Override
