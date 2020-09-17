@@ -14,6 +14,8 @@ import android.widget.ListView;
 import android.widget.SearchView;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+
 /**
  * A simple {@link Fragment} subclass.
  * create an instance of this fragment.
@@ -23,7 +25,8 @@ ListView LV;
 
 SearchView SV;
 ArrayAdapter<String> Adapter;
-String[] activityNames = {getString(R.string.AIActivity), getString(R.string.VRActivity)};
+//String[] activityNames = {getString(R.string.AIActivity), getString(R.string.VRActivity)};
+ArrayList<String> arrayList = new ArrayList<>();
 
     public FragmentList() {
         // Required empty public constructor
@@ -40,9 +43,11 @@ String[] activityNames = {getString(R.string.AIActivity), getString(R.string.VRA
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         Toast.makeText(getContext(), R.string.LVOnCreate, Toast.LENGTH_SHORT).show();
+        arrayList.add(getString(R.string.AIActivity));
+        arrayList.add(getString(R.string.VRActivity));
         View view = inflater.inflate(R.layout.fragment_list, container);
         LV = (ListView) view.findViewById(R.id.listView);
-        Adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, activityNames);
+        Adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, arrayList);
         LV.setAdapter(Adapter);
         LV.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
